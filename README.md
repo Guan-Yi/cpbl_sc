@@ -4,7 +4,7 @@
 ## 簡介
 抓取選手年度全紀錄查詢資料，並匯出`.csv`檔
 * 資料來源： http://www.cpbl.com.tw/stats/all.html
-* 抓取年度：2016 ~ 2020
+* 抓取適用年度：2010 ~ 2020
 * 匯出檔名：`batting_stat.csv`, `pitching_stat.csv`
 
 ## 套件
