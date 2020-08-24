@@ -13,7 +13,17 @@
 * `requests 2.21.0`
 
 ## 使用
-    python cpbl_scrapy.py
+    python cpbl_scrapy.py [year] [stats type]
+    ex:
+    # 抓取 2020 投手、野手紀錄
+    python cpbl_scrapy.py 2020
+    
+    # 抓取 2018 投手紀錄
+    python cpbl_scrapy.py 2018 p
+
+* `year`: 非必要，YYYY，(範圍：2010 ~ 2020)
+* `stat type`: 非必要，`b`(Batting), `p`(Pitching)
+* 未給予任何參數時，則會抓取 2010 ~ 2020 所有投手、野手紀錄資料
 
 ## 備註
 * 未針對選手姓名進行特殊符號處理(ex: `*`, `#`)
